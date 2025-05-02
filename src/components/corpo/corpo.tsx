@@ -1,5 +1,6 @@
 import './corpo.css';
 import bg from '../../escuro.jpg'
+import Techs from '../techs/techs';
 
 export default function Corpo() {
     return (
@@ -7,7 +8,7 @@ export default function Corpo() {
             <div className="corpoBanner">
                 <img className="banner" src={bg} alt='banner'/>
             </div>
-            <div className="titulo">PROJECTS</div>
+            <Techs></Techs>
         </div>
     );
 }
