@@ -1,0 +1,22 @@
+body {
+  background-image: url("assets/bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100dvh;
+  min-width: 100vw; 
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  
+}
+
+
+
