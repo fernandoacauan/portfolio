@@ -1,8 +1,8 @@
 .corpo
 {
     min-height: 80vh;
-    background: linear-gradient(to bottom, #1C1C1C 0%, #070707 100%);
-    box-shadow: 0 0 20px rgba(200, 200, 200, 0.09);
+    background: linear-gradient(to bottom,#151515, #000000);
+    box-shadow: 0 0 20px rgba(200, 200, 200, 0.3);
 }
 
 .banner

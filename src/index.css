@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/bg.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)) ,url("assets/bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
