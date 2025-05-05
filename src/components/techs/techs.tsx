@@ -13,38 +13,78 @@ export default function Techs()
     return (
         <section id="techs">
             <h1 id="titulo">TECHS</h1>
-        <div className="techs-container">
-            <div className="tech-cards">
-                <div className="thumbmail">
-                    <img className="images" src={C}></img>
+            <div className="techs-container">
+                <div className="tech-cards">
+                    <div className="front-and-back-area">
+                    <div className="area-front">
+                        <div className="thumbmail">
+                        <img id="img1" src={C} />
+                        </div>
+                        <p>C</p>
+                    </div>
+                    <div className="area-back">
+                        <p>Linguagem de baixo nível utilizada em sistemas embarcados.</p>
+                    </div>
+                    </div>
                 </div>
-                <p>C</p>
-            </div>
-            <div className="tech-cards">
-                <div className="thumbmail">
-                <img className="images" src={CPP}></img>
+
+                <div className="tech-cards">
+                    <div className="front-and-back-area">
+                    <div className="area-front">
+                        <div className="thumbmail">
+                        <img id="img1" src={CPP} />
+                        </div>
+                        <p>C++</p>
+                    </div>
+                    <div className="area-back">
+                        <p>Extensão do C com suporte a orientação a objetos.</p>
+                    </div>
+                    </div>
                 </div>
-                <p>C++</p>
-            </div>
-            <div className="tech-cards">
-                <div className="thumbmail">
-                <img className="images" src={CSharp}></img>
+
+                <div className="tech-cards">
+                    <div className="front-and-back-area">
+                    <div className="area-front">
+                        <div className="thumbmail">
+                        <img id="img1" src={CSharp} />
+                        </div>
+                        <p>C#</p>
+                    </div>
+                    <div className="area-back">
+                        <p>Linguagem da Microsoft usada em aplicações .NET.</p>
+                    </div>
+                    </div>
                 </div>
-                <p>CSharp</p>
-            </div>
-            <div className="tech-cards">
-                <div className="thumbmail">
-                    <img className="images" src={SQL}></img>
+
+                <div className="tech-cards">
+                    <div className="front-and-back-area">
+                    <div className="area-front">
+                        <div className="thumbmail">
+                        <img id="img1" src={SQL} />
+                        </div>
+                        <p>SQL</p>
+                    </div>
+                    <div className="area-back">
+                        <p>Linguagem de consulta para bancos de dados relacionais.</p>
+                    </div>
+                    </div>
                 </div>
-                <p>SQL</p>
-            </div>
-            <div className="tech-cards">
-                <div className="thumbmail">
-                <img className="images" src={VHDL}></img>
+
+                <div className="tech-cards">
+                    <div className="front-and-back-area">
+                    <div className="area-front">
+                        <div className="thumbmail">
+                        <img id="img1" src={VHDL} />
+                        </div>
+                        <p>VHDL</p>
+                    </div>
+                    <div className="area-back">
+                        <p>Descrição de hardware usada em FPGAs e ASICs.</p>
+                    </div>
+                    </div>
                 </div>
-                <p>VHDL</p>
             </div>
-        </div>
+
         </section>
 
     );
