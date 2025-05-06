@@ -10,26 +10,17 @@ export default function Navbar() {
     </div>
     <ul className="nav-links">
       <li>
-      <a href="#" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = '/index.html';
-                }}>
-                HOME
-      </a>
+      <a href="/index">HOME</a>
       </li>
       <li>
-      <a href="#" onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = '/projetos.html';
-                }}>
-                PROJECTS
-      </a>
-          </li>
+        <a href="/projects">PROJECTS</a>
+      </li>
       <li>
-        <a href="#">ABOUT ME
-          </a>
-        </li>
-      <li><a href="#">CONTACT</a></li>
+        <a href="/aboutme">ABOUT ME</a>
+      </li>
+      <li>
+        <a href="/contact">CONTACT</a>
+      </li>
     </ul>
   </nav>
   );

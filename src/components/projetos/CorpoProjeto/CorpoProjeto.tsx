@@ -1,5 +1,7 @@
 import './CorpoProjeto.css'
 import Web1 from '../../../assets/calc.jpg'
+import Web2 from '../../../assets/conversor.jpg'
+import Embedded1 from '../../../assets/vertigo.webp'
 export default function Projetos() {
     return (
         <section id="projetos">
@@ -13,17 +15,24 @@ export default function Projetos() {
                     <p className="projeto-stack"><strong>Stack:</strong> React, CSS, Vite</p>
                     <button className="projeto-btn">FIND OUT MORE</button>
                 </div>
-                {/* outros cards... */}
+                <div className="projeto-card">
+                    <img className="project-img" src={Web2} alt="projeto"></img>
+                    <p className="projeto-text">
+                        Site pessoal desenvolvido em React, com foco em UI/UX e responsividade.
+                    </p>
+                    <p className="projeto-stack"><strong>Stack:</strong> React, CSS, Vite</p>
+                    <button className="projeto-btn">FIND OUT MORE</button>
+                </div>
             </div>
 
             <h1 className="projetos-section-title">EMBEDDED</h1>
             <div className="projetos-container">
                 <div className="projeto-card">
-                    <div className="projeto-img" />
+                    <img className="project-img" src={Embedded1} alt="projeto"/>
                     <p className="projeto-text">
-                        Sistema de controle de temperatura usando microcontrolador e sensores analógicos.
+                        Emulador de PlayStation1 denominado VertigoSX. Ainda em construção.
                     </p>
-                    <p className="projeto-stack"><strong>Stack:</strong> C, STM32, VHDL</p>
+                    <p className="projeto-stack"><strong>Stack:</strong> C++</p>
                     <button className="projeto-btn">FIND OUT MORE</button>
                 </div>
             </div>
