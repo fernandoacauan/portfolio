@@ -3,6 +3,9 @@ import './navbar.css'
 import Logo from '../../assets/logo2.png';
 
 export default function Navbar() {
+
+  const currentPath = window.location.pathname;
+
   return (
     <nav className="navbar">
     <div className="logo">
@@ -10,16 +13,16 @@ export default function Navbar() {
     </div>
     <ul className="nav-links">
       <li>
-      <a href="/index">HOME</a>
+      <a href="/index" className={currentPath === '/index' ? 'active' : ''}>HOME</a>
       </li>
       <li>
-        <a href="/projects">PROJECTS</a>
+        <a href="/projects" className={currentPath === '/projects' ? 'active' : ''}>PROJECTS</a>
       </li>
       <li>
-        <a href="/aboutme">ABOUT ME</a>
+        <a href="/aboutme" className={currentPath === '/aboutme' ? 'active' : ''}>ABOUT ME</a>
       </li>
       <li>
-        <a href="/contact">CONTACT</a>
+        <a href="/contact" className={currentPath === '/contact' ? 'active' : ''}>CONTACT</a>
       </li>
     </ul>
   </nav>

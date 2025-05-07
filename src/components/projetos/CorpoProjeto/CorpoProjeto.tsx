@@ -10,17 +10,17 @@ export default function Projetos() {
                 <div className="projeto-card">
                     <img className="project-img" src={Web1} alt="projeto"></img>
                     <p className="projeto-text">
-                        Site pessoal desenvolvido em React, com foco em UI/UX e responsividade.
+                        Site pessoal desenvolvido em HTML/CSS/JS, com foco em UI/UX e responsividade.
                     </p>
-                    <p className="projeto-stack"><strong>Stack:</strong> React, CSS, Vite</p>
+                    <p className="projeto-stack"><strong>Stack:</strong> HTML, CSS, JS</p>
                     <button className="projeto-btn">FIND OUT MORE</button>
                 </div>
                 <div className="projeto-card">
                     <img className="project-img" src={Web2} alt="projeto"></img>
                     <p className="projeto-text">
-                        Site pessoal desenvolvido em React, com foco em UI/UX e responsividade.
+                        Site pessoal desenvolvido com HTML CSS e JS, com foco em integração de API e responsividade.
                     </p>
-                    <p className="projeto-stack"><strong>Stack:</strong> React, CSS, Vite</p>
+                    <p className="projeto-stack"><strong>Stack:</strong> HTML, CSS, JS</p>
                     <button className="projeto-btn">FIND OUT MORE</button>
                 </div>
             </div>

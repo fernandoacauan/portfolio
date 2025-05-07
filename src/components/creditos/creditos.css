@@ -1,7 +1,36 @@
 .footer
 {
-    padding: 10px;
+    padding: 1px;
     font-family: Inter;
     font-size: 15px;
-    color: #888888
+    color: #888888;
+}
+
+.footer .copyright 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content
+{
+    display: flex;
+    justify-content: space-between; /* separa os itens nas extremidades */
+    align-items: center;
+    width: 100%;
+}
+
+.social a
+{
+    gap: 100px;
+}
+
+.social img
+{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+    margin-left: 10px;
 }
