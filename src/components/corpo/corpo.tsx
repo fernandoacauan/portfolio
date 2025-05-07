@@ -9,7 +9,7 @@ export default function Corpo() {
                     <img className="foto-perfil" alt="Perfil" />
                     <div className="texto-apresentacao">
                         <h1>Fernando Acauan</h1>
-                        <p>Desenvolvedor de aplicativos desktop e sistemas embarcados.</p>
+                        <p>Computer Engineering student at PUCRS, specializing in desktop applications and embedded systems development.</p>
                     </div>
                 </div>
             </div>
