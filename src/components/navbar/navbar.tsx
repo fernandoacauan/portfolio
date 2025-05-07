@@ -12,6 +12,9 @@ export default function Navbar() {
       <img className="logo-bg" src={Logo}></img>
     </div>
     <ul className="nav-links">
+    <li>
+      <a href="/" className={currentPath === '/' ? 'active' : ''}></a>
+      </li>
       <li>
       <a href="/index" className={currentPath === '/index' ? 'active' : ''}>HOME</a>
       </li>

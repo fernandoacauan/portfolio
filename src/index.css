@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)) ,url("assets/bg.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)) ,url("assets/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,7 +12,6 @@ body {
 }
 
 .container {
-  min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
 }

@@ -1,13 +1,42 @@
 .corpo
 {
     min-height: 80vh;
-    background: linear-gradient(to bottom,#151515, #000000);
+    
     box-shadow: 0 0 20px rgba(200, 200, 200, 0.3);
 }
 
-.banner
-{
+.apresentacao {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+    padding: 20px;
+    border-top: 1px solid #333;     /* Linha superior opcional */
+    margin-top: -5px;               /* Corrige separação da .banner */
+    box-sizing: border-box;
+    color: white;
     height: 350px;
     width: 100%;
     border-bottom:  3px groove rgba(223, 223, 223, 0.25);
+}
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #222;         /* Fallback visual */
+}
+
+.texto-apresentacao h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.texto-apresentacao p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #ccc;
 }
