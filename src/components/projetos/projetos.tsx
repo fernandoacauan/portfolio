@@ -6,10 +6,8 @@ export default function Projeto() {
     return(
         <>
            <div className="container">
-                 <Navbar></Navbar>
                  <CorpoProjeto>
                  </CorpoProjeto>
-                 <Creditos></Creditos>
                </div>
         </>
     );
