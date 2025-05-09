@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from './components/navbar/navbar'
 import Corpo from './components/corpo/corpo';
 import Creditos from './components/creditos/creditos';
