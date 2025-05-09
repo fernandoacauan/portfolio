@@ -4,7 +4,6 @@ import Corpo from './components/corpo/corpo';
 import Creditos from './components/creditos/creditos';
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
     <div className="container">
       <Navbar></Navbar>
