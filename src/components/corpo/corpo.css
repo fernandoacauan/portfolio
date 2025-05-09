@@ -6,6 +6,7 @@
 }
 
 .apresentacao {
+    font-family: 'Inter';
     z-index: 1;
     position: relative;
     display: flex;
@@ -25,8 +26,8 @@
 .foto-perfil {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    background-color: #222;         /* Fallback visual */
+    background-color: #222;
+    object-fit: cover;
 }
 
 .texto-apresentacao h1 {
