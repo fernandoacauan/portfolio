@@ -5,7 +5,9 @@ import Navbar from "../navbar/navbar";
 export default function About() {
     return(
         <div className="container">
+            <Navbar></Navbar>
             <Corpo></Corpo>
+            <Creditos></Creditos>
         </div>
     );
 }
