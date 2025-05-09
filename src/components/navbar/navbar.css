@@ -16,7 +16,7 @@
 
 .logo-bg {
   margin-top: 10px;
-  width: 40vh;
+  width: 400px;
 }
 
 .nav-links {
@@ -25,7 +25,8 @@
   gap: 39px;
   margin: 0;
   padding: 0;
-  font-family: Inter;                                        
+  font-family: Inter; 
+                                      
 }
 
 .nav-links a {
@@ -33,6 +34,7 @@
   color: white;
   font-weight: 400;
   transition: color 0.3s;
+  font-weight: 300; 
 }
 
 .nav-links a:hover {

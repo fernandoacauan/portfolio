@@ -6,7 +6,7 @@ export default function Creditos() {
     return (
         <div className="footer">
             <div className="copyright">
-                <div className="footer-content">
+                <div className="navbar" id="nav-footer">
                     <p>Copyright © Fernando Acauan 2025.</p>
                     <div className="social">
                         <a href="https://github.com/fernandoacauan" target="_blank" rel="noopener noreferrer">

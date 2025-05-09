@@ -13,7 +13,7 @@ export default function Navbar() {
     </div>
     <ul className="nav-links">
     <li>
-      <a href="/" className={currentPath === '/' ? 'active' : ''}></a>
+      <a href="/" className={currentPath === '' ? 'active' : ''}></a>
       </li>
       <li>
       <a href="/index" className={currentPath === '/index' ? 'active' : ''}>HOME</a>
