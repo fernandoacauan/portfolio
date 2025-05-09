@@ -17,13 +17,13 @@
   max-width: 1000px;
 }
 
-.about-photo {
+/* .about-photo {
   width: 150px;
   height: 150px;
-  background-color: black; /* Substitua por uma imagem se quiser */
+  background-color: black;
   border: 1px solid #333;
   flex-shrink: 0;
-}
+} */
 
 .about-text {
   font-family: 'Inter', sans-serif;

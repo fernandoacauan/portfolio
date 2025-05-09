@@ -5,7 +5,6 @@ export default function CorpoAbout()
     return(
         <div className="body">
             <div className="about-container">
-                <div className="about-photo" />
                 <div className="about-text">
                     <p>Hi! My name is Fernando Acauan, and I’m a Computer Engineering student currently in my third semester.</p>
                     <p>My journey into the world of technology began in 2011, when I got my first computer. That moment ignited a deep and lasting passion for understanding how computers work — a passion that has only grown stronger over the years.</p>
