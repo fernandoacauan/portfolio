@@ -1,8 +1,12 @@
 import './corpo.css';
+import Navbar from '../navbar/navbar';
+import Creditos from '../creditos/creditos';
 import Techs from '../techs/techs';
 import Foto from '../../assets/formatura.jpg'
 export default function Corpo() {
     return (
+        <>
+        <Navbar/>
         <div className="corpo">
             <div className="corpoBanner">
                 <div className="apresentacao">
@@ -14,6 +18,8 @@ export default function Corpo() {
                 </div>
             </div>
             <Techs></Techs>
+            <Creditos/>
         </div>
+        </>
     );
 }
